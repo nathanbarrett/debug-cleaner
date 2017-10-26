@@ -1,0 +1,21 @@
+{
+  "name": "debug-cleaner",
+  "version": "1.0.0",
+  "description": "A tool to help remove debugging and logging tools from your project",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "debug",
+    "cleaner",
+    "scan",
+    "scanner",
+    "log",
+    "logging",
+    "debugging",
+    "clean"
+  ],
+  "author": "Nathan Barrett",
+  "license": "ISC"
+}
