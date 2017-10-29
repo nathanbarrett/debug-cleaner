@@ -4,18 +4,19 @@
   "description": "A tool to help remove debugging and logging tools from your project",
   "main": "main.js",
   "scripts": {
-    "test": "test"
+    "tests": "node ./tests/start.js",
+    "build": "tsc"
   },
-  "keywords": [
-    "debug",
-    "cleaner",
-    "scan",
-    "scanner",
-    "log",
-    "logging",
-    "debugging",
-    "clean"
-  ],
+  "keywords": ["debug", "cleaner", "scan", "scanner", "log", "logging", "debugging", "clean"],
   "author": "Nathan Barrett",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.80",
+    "eslint": "^4.9.0",
+    "jasmine": "^2.8.0",
+    "typescript": "^2.5.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
 }
